@@ -1,12 +1,13 @@
 str_ = "selenium"
 
-length = 0
-for i in str_:
-    length += 1
+def finding_length(iterable):
+    length = 0
+    for i in iterable:
+        length += 1
 
-print(length)
+    print(length)
 
-
+finding_length(str_)
 
 
 
